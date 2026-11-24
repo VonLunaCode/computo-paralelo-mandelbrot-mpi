@@ -15,3 +15,5 @@ export HWLOC_COMPONENTS=-gl
 mpiexec -n 4 ./mandelbrot_mpi 1920 1080 1000 32 salida.png   # W H iter bloque [png]
 ```
 Con P=1 corre en modo secuencial (línea base del speedup).
+
+> **Si usas otro agente (Antigravity, Cursor, Copilot, etc.):** dile *"Lee AGENTS.md y sigue sus instrucciones. Soy la maestra / la trabajadora."*
