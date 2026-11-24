@@ -1,0 +1,5 @@
+# Variante de 2 laptops (sin switch: un solo cable directo entre ellas).
+# Copia a "hosts". Ambas calculan; el maestro (rank 0) vive en la PRIMERA linea.
+# slots del maestro = sus nucleos fisicos (rank 0 + trabajadores en la misma laptop).
+192.168.50.11 slots=4     # Vivobook: rank 0 (maestro) + trabajadores   <- ajusta a sus nucleos
+192.168.50.12 slots=6     # Laptop con GPU: solo trabajadores            <- ajusta a sus nucleos

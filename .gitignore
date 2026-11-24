@@ -1,0 +1,5 @@
+cluster/hosts
+resultados/
+*.png
+mandelbrot_mpi
+!resultados_sv/
