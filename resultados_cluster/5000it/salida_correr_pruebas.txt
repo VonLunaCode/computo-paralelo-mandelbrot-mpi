@@ -1,0 +1,41 @@
+== Nodos: 192.168.50.11 192.168.50.12 192.168.50.13 | slots totales: 40 | salida: resultados/20261126_163854_cable5k_5000it_b32
+-- Compilando en 192.168.50.11
+-- Compilando en 192.168.50.12
+-- Compilando en 192.168.50.13
+-- Metadatos en resultados/20261126_163854_cable5k_5000it_b32/info_cluster.txt
+-- P a barrer: 2 4 8 16 32 40
+-- T1 prueba1 en 192.168.50.11 (rep 1)
+-- T1 prueba1 en 192.168.50.12 (rep 1)
+-- T1 prueba1 en 192.168.50.13 (rep 1)
+-- T1 prueba2 en 192.168.50.11 (rep 1)
+-- T1 prueba2 en 192.168.50.12 (rep 1)
+-- T1 prueba2 en 192.168.50.13 (rep 1)
+-- prueba1  P=2  rep=1
+-- prueba1  P=4  rep=1
+-- prueba1  P=8  rep=1
+-- prueba1  P=16  rep=1
+-- prueba1  P=32  rep=1
+-- prueba1  P=40  rep=1
+-- prueba2  P=2  rep=1
+-- prueba2  P=4  rep=1
+-- prueba2  P=8  rep=1
+-- prueba2  P=16  rep=1
+-- prueba2  P=32  rep=1
+-- prueba2  P=40  rep=1
+prueba,P,T_total_prom,pct_espera_prom,speedup_vs_192.168.50.11,speedup_vs_192.168.50.12,speedup_vs_192.168.50.13,eficiencia_vs_mejor_T1
+p1,2,6.5890,0.34,0.988,1.402,1.764,0.988
+p1,4,2.3094,0.32,2.819,4.000,5.032,0.940
+p1,8,1.1602,0.42,5.611,7.962,10.017,0.802
+p1,16,0.7367,1.89,8.837,12.538,15.775,0.589
+p1,32,0.5120,27.02,12.715,18.041,22.698,0.410
+p1,40,0.4639,30.68,14.033,19.912,25.052,0.360
+p2,2,26.4310,0.30,0.951,1.362,1.876,0.951
+p2,4,9.6338,0.34,2.608,3.738,5.147,0.869
+p2,8,4.8731,0.40,5.156,7.389,10.175,0.737
+p2,16,2.9655,0.93,8.473,12.143,16.720,0.565
+p2,32,1.7201,16.07,14.607,20.934,28.827,0.471
+p2,40,1.6960,22.49,14.815,21.232,29.236,0.380
+
+
+Listo. Todo en: resultados/20261126_163854_cable5k_5000it_b32
+Archivos: resultados.csv  baseline_T1_por_nodo.csv  por_proceso.csv  resumen.csv  info_cluster.txt  img/  logs/

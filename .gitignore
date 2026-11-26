@@ -3,3 +3,10 @@ resultados/
 *.png
 mandelbrot_mpi
 !resultados_sv/
+
+# Figuras y render del reporte
+!reporte/*.png
+# Clase de Springer (no se redistribuye)
+llncs.cls
+splncs04.bst
+aliascnt.sty

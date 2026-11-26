@@ -1,0 +1,44 @@
+fecha: 2026-11-26T16:38:58-06:00
+etiqueta: cable5k  iter=5000 bloque=32 reps=1 subnet=192.168.50.0/24
+mpirun: mpirun (Open MPI) 4.1.6
+
+=== 192.168.50.11 ===
+N1
+16
+CPU(s):                               16
+Model name:                           AMD Ryzen 7 5700U with Radeon Graphics
+Thread(s) per core:                   2
+Core(s) per socket:                   8
+L3 cache:                             4 MiB (1 instance)
+Mem:            7612         640        6782           3         342        6972
+6.6.87.2-microsoft-standard-WSL2
+
+=== 192.168.50.12 ===
+N2
+32
+CPU(s):                                  32
+Model name:                              AMD Ryzen 9 9955HX 16-Core Processor
+Thread(s) per core:                      2
+Core(s) per socket:                      16
+L3 cache:                                32 MiB (1 instance)
+Mem:           15573         827       14659           4         282       14745
+6.18.58.1-microsoft-standard-WSL2
+
+=== 192.168.50.13 ===
+N3
+8
+CPU(s):                                  8
+Model name:                              Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz
+Thread(s) per core:                      2
+Core(s) per socket:                      4
+L3 cache:                                6 MiB (1 instance)
+Mem:            3787         526        3088           4         244        3260
+6.18.58.1-microsoft-standard-WSL2
+
+=== Latencia desde el maestro (ping x20) ===
+-> 192.168.50.12
+20 packets transmitted, 20 received, 0% packet loss, time 18994ms
+rtt min/avg/max/mdev = 1.914/2.475/3.414/0.372 ms
+-> 192.168.50.13
+20 packets transmitted, 20 received, 0% packet loss, time 18993ms
+rtt min/avg/max/mdev = 2.960/3.758/4.295/0.396 ms
